@@ -1,0 +1,27 @@
+[debug] [2018-08-31T14:12:33.665Z] ----------------------------------------------------------------------
+[debug] [2018-08-31T14:12:33.675Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\M1032535\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-08-31T14:12:33.676Z] CLI Version:   3.18.5
+[debug] [2018-08-31T14:12:33.676Z] Platform:      win32
+[debug] [2018-08-31T14:12:33.676Z] Node Version:  v8.9.4
+[debug] [2018-08-31T14:12:33.677Z] Time:          Fri Aug 31 2018 19:42:33 GMT+0530 (India Standard Time)
+[debug] [2018-08-31T14:12:33.677Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-31T14:12:33.698Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-31T14:12:33.698Z] > authorizing via signed-in user
+[debug] [2018-08-31T14:12:33.703Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-08-31T14:12:33.704Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/cfesPWb1UQhk7vzR0_WKqGJudaRhTmAfG4twa5lZoB4',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Fri Aug 31 2018 19:42:33 GMT+0530 (India Standard Time)
+[debug] [2018-08-31T14:12:34.185Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-31T14:12:34.231Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/atl-anytime-library  
+  
+ Fri Aug 31 2018 19:42:34 GMT+0530 (India Standard Time)
+[debug] [2018-08-31T14:12:35.531Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-31T14:12:35.534Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/atl-anytime-library/tokens  
+  
+ Fri Aug 31 2018 19:42:35 GMT+0530 (India Standard Time)
+[debug] [2018-08-31T14:12:37.096Z] <<< HTTP RESPONSE 200
